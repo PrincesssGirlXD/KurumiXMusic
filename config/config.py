@@ -56,12 +56,12 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SiestaNazuki/KurumiXMusic",
+    "https://GitHub.com/princesssgirlxd/KurumiXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
