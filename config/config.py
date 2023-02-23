@@ -21,10 +21,10 @@ API_ID = int(getenv("API_ID", "21886785"))
 API_HASH = getenv("API_HASH", "6eec5fe78d63996edcc564ffb00a7e9f")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5588795870:AAElACEe4mXOUQ4NPZ0jHtvxImJmDO85nPo")
+BOT_TOKEN = getenv("BOT_TOKEN", "5794025656:AAGS23V5-OBBklOdktS88DUEAHuOZsZ144Q")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://mongo:Nd7iRSMzVPVcfgKlXu4q@containers-us-west-26.railway.app:7167")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://mongo:cdxXUD3JvqaAQUH7NuL7@containers-us-west-114.railway.app:5690")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -48,10 +48,10 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","05d76dc3-6e63-462c-a0f1-f5253e663369")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","musicop")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
